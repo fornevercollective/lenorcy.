@@ -19,7 +19,7 @@ Queen of Spades	An adult woman with dark brown to black hair, and dark brown eye
 
 
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Logo](---)
 
 
 ## Screenshots
@@ -29,7 +29,7 @@ Queen of Spades	An adult woman with dark brown to black hair, and dark brown eye
 
 ## Authors
 
-- [@octokatherine](https://www.github.com/octokatherine)
+- [@octokatherine](https://www.github.com/fornevercollective)
 
 
 ## Appendix
