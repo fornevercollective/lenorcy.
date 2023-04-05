@@ -1,0 +1,9 @@
+.DS_Store
+._*
+.Trashes
+results.psd
+.eslintignore
+.eslintrc.json
+jsconfig.json
+.vscode
+menuitems
