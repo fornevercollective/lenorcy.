@@ -83,3 +83,41 @@ What did you learn while building this project? What challenges did you face and
 - Additional browser support
 
 - Add more integrations
+
+## Code Test
+print ('WELCOME')
+print ()
+#!/usr/bin/env python
+
+import datetime
+import pytz
+
+timezones = (
+    'Pacific/Honolulu',
+    'America/New_York',
+    'Asia/Taipei',
+
+)
+
+if __name__ == '__main__':
+    #fmt = '%A %Y-%m-%d %H:%M:%S %Z%z'
+    fmt = '%A %Y-%m-%d %H:%M'
+
+    utc = pytz.utc
+    utc_now = utc.localize(datetime.datetime.utcnow())
+
+    for tz_name in timezones:
+        tz = pytz.timezone(tz_name)
+        tz_now = utc_now.astimezone(tz)
+        print('{tz_name}: {local_datetime}'.format(
+            tz_name = tz_name,
+            local_datetime = tz_now.strftime(fmt)
+        ))
+
+print ()
+import socket
+
+print('host', socket.gethostname())
+print('ip', socket.gethostbyname(socket.gethostname()))
+print ()
+## Code Test
